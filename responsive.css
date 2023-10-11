@@ -195,7 +195,7 @@
 
     .section4::after{
         top: 825px;
-        margin: auto;
+        margin:0 auto;
     }
 
     .section7::after{

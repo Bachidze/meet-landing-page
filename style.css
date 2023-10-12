@@ -38,9 +38,9 @@ h1{
 
 .section1{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     padding-top: 25px;
-    gap: 26.2px;
+    gap: 13.2px;
 }
 
 
@@ -106,8 +106,47 @@ p{
     line-height: 26px;
 }
 
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    opacity: 0.5;
+}
+.parent-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    top: 500px;
+    opacity: 0.5;
+    padding-top: 630px;
+}
 
-.section4{
+.nika{
+    width: 2px;
+    height: 180px;
+    background-color: black;
+   }
+
+   .kaxa{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: kaxa;
+    animation-duration: 4s;
+    background-color: #fff;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+/* .section4{
   width: 56px;
   height: 56px;
   border: 1px solid gray;
@@ -132,7 +171,7 @@ p{
     margin-top: 100px;
     opacity: 0.5;
 }
-
+ */
 
 
 
@@ -147,6 +186,8 @@ p{
 
 .section6{
     text-align: center;
+
+    padding-top: 100px;
 }
 
 h5{
@@ -180,34 +221,6 @@ h5{
 }
 
 
-.section7{
-    width: 56px;
-    height: 56px;
-    border: 1px solid gray;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 200px;
-    margin-bottom: 100px;
-    z-index: 2;
-    background-color: #fff;
-    animation-name: giorgi;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-.section7::after{
-    width: 1px;
-    height: 100px;
-    background-color: gray;
-    content: '';
-    position: absolute;
-    top: 1602px;
-    display: flex;
-    opacity: 0.4;
-}
-
 .section8{
     text-align: center;
     display: flex;
@@ -222,6 +235,7 @@ h5{
     width: 100%;
     padding: 15px;
 }
+
 
 
 .tittle-2{
@@ -276,17 +290,20 @@ h5{
 }
 
 .image-6{
-    display: none;
+    display: block;
     margin-top: -20px;
 }
 
 
-/* @keyframes giorgi {
+
+
+@keyframes kaxa {
     0%{
-        transform: translateY(0);
+        transform: translateX(0);
     }
 
+
     100%{
-        transform: translateY(10%);
+        transform: translateY(-180%);
     }
-} */
+}

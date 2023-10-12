@@ -196,13 +196,14 @@ h5{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: -125px;
     gap: 15px;
     background-image: url(./assets/Bitmap\ \(1\).svg);
     z-index: -1;
     position: relative;
     width: 100%;
     padding: 15px;
+    margin-top: -450px;
+    height: 600px
 }
 
 

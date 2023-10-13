@@ -44,6 +44,10 @@
         display: inline;
 
     }
+
+    .section8 span{
+        color: violet;
+    }
 }
 
 @media(width > 1440px){
@@ -139,11 +143,10 @@
 
     .button3:hover{
         opacity: 0.5;
+        background-color: #fff;
     }
 
-    .button3{
-        opacity: 0.5;
-    }
+
 }
 @media(width > 1800px){
     .section1{
@@ -237,10 +240,6 @@
     }
 
     .button3:hover{
-        opacity: 0.5;
-    }
-
-    .button3{
         opacity: 0.5;
     }
 }

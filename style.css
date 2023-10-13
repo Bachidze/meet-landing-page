@@ -124,14 +124,14 @@ p{
 }
 
 .nika{
-    width: 2px;
+    width: 1px;
     height: 180px;
     background-color: black;
    }
 
    .kaxa{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     border: 2px solid black;
     display: flex;
@@ -264,6 +264,14 @@ h5{
     margin-top: -20px;
 }
 
+span{
+    color: #82cee1;
+}
+
+.section8 span{
+    color:violet;
+}
+
 
 
 
@@ -273,7 +281,11 @@ h5{
     }
 
 
+    50%{
+        transform: translateY(-200%);
+    }
+
     100%{
-        transform: translateY(-180%);
+        transform: translateY(0);
     }
 }
